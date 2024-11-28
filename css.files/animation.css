@@ -1,0 +1,458 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+
+
+
+*/
+.animation_our_services{
+    margin: 10px 10px;
+}
+
+.animation{
+
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+    
+    background: linear-gradient(rgba(147, 5, 0, 0.6), rgba(0, 0, 0, 0.4),
+     rgba(0, 0, 0, 0.4), rgba(0, 127, 0, 0.4));
+}
+    
+@media (max-width: 768px){
+
+    
+.animation{
+
+    width: 100%;
+    height: 60vh;
+    overflow: hidden;
+    position: relative;
+    margin-top: 5px;
+    margin-bottom: 5px;
+   
+}
+
+
+
+
+}
+
+  /*  margin-top: -50px;      yo margin top nav bar dekhaunu x vanne rakhane ho */ 
+
+
+
+.animation .list .item{
+    
+    width: 100%;
+    height: 100vh;
+    inset: 0 0 0 0;
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+    background: center;
+    object-fit: cover;
+
+}
+
+
+.animation .list .item img{
+    width: 100%;
+    height: 100vh;
+
+}
+
+.animation .list .item .content{
+    position: absolute;
+    top: 4%;
+    width: 100%;
+    left: 4%;
+    padding-right: 20%;
+    box-sizing: border-box;
+    text-shadow:  5px 5px 10px black;
+    line-height: 20px;
+    
+}
+
+
+.animation .list .item .content .title{
+    color: black;
+    text-shadow: 3px 3px 3px whitesmoke;
+    font-size: 25px;
+    font-weight: bolder;
+    margin: 10px 0;
+    
+    
+}
+
+.animation .list .item .content .type{
+    color: red;
+    font-size: 30px;
+    font-weight: bolder;
+    margin: 16px 0;
+    text-shadow: 3px 3px 3px whitesmoke;
+    line-height: 40px;
+    
+
+}
+
+.animation .list .item .content .description{
+    font-size: 20px;
+    color: greenyellow;
+
+    
+    background: linear-gradient(rgba(147, 5, 0, 0.4), rgba(0, 0, 123, 0.4),
+     whitesmoke, rgba(0, 127, 0, 0.2));
+}
+
+.animation .list .item .content .button{
+    margin-top: 20px;
+}
+
+.animation .list .item .content button{
+    border: none;
+    background-color: greenyellow;
+    font-weight: 500;
+    padding: 10px 20px ;
+    cursor: pointer;
+    letter-spacing: 2px;
+    transition: 0.4s;
+
+}
+
+.animation .list .item .content button:hover{
+    background-color: rgb(15, 224, 46);
+    color: aliceblue;
+}
+
+
+
+@media (max-width: 768px){
+
+    
+.animation .list .item{
+    
+    width: 100vw;
+    height: 100vh;
+}
+    
+.animation .list .item .content .description{
+    font-size: 11px;
+    
+}
+
+
+.animation .list .item img{
+    width: 100%;
+    height: 100vh;
+}
+
+.animation .list .item .content{
+    position: absolute;
+    top: 2%;
+    max-width: 70%;
+    left: 2%;
+    padding-right: 10%;
+    box-sizing: border-box;
+    text-shadow: 0 5px 10px #141010;
+    line-height: 10px;
+
+
+}
+
+
+.animation .list .item .content .title{
+
+    font-size: 16px;
+
+    
+}
+
+.animation .list .item .content .type{
+    
+    font-size: 18px;
+    line-height: 16px;
+    
+    
+
+}
+
+
+
+}
+
+
+/*  thumbnail section */
+
+.thumbnail{
+    display: flex;
+    gap: 10px;
+    position: absolute;
+    bottom: 10px;
+    left: 80%;
+    width: max-content;
+    z-index: 100;
+}
+@media(max-width: 768px){
+
+    .thumbnail{
+        display: flex;
+        gap: 2px;
+        position: absolute;
+        bottom: 0%;
+        left: 70%;
+        width: max-content;
+        z-index: 100;
+        width: 60px;
+        height: 80px;
+    }
+
+
+
+
+}
+
+.thumbnail .item{
+    width: 130px;
+    height: 120px;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.thumbnail .item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 5px 0 15px rgba(0 , 0, 0, 0.4);
+
+    background: linear-gradient(rgba(147, 5, 0, 0.6), rgba(0, 0, 0, 0.4),
+     rgba(0, 0, 0, 0.4), rgba(0, 127, 0, 0.4));
+}
+
+
+
+
+.nextPrevArrows{
+    position: absolute;
+    bottom: 15%;
+    right: 47%;
+    z-index: 100;
+    display: flex; 
+
+}
+
+@media (max-width: 768px){
+
+    
+.nextPrevArrows{
+    position: absolute;
+    bottom: 1%;
+    right: 47%;
+    z-index: 100;
+    display: flex; 
+
+}
+
+.prev{
+    display: none;
+}
+
+
+}
+
+
+.prev{
+    display: none;
+}
+
+
+
+
+.nextPrevArrows button{
+    width: 40px;
+    height: 35px;
+    border-radius: 50%;
+    /*background-color:rgb(245, 4, 4);*/
+    background-color: greenyellow;
+    border: none;
+    font-size: 20px;
+    color: rgb(20, 20, 20);
+    font-family: monospace;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.nextPrevArrows button:hover{
+    background-color: lightgreen;
+    color: #141010;
+}
+
+
+
+
+
+/*  ANIMATED PARTS  */
+
+
+.animation .list .item:nth-child(1){
+    z-index: 1;
+}
+
+
+.animation .list .item:nth-child(1) .content .title,
+.animation .list .item:nth-child(1) .content .type,
+.animation .list .item:nth-child(1) .content .description,
+.animation .list .item:nth-child(1) .content .button{
+    transform: translateY(50px);
+    filter: blur(20px);
+    opacity: 0;
+    animation: showContent 0.5s 1s linear 1 forwards;
+}
+
+@keyframes showContent{
+    to{
+        transform: translateY(0px);
+        filter: blur(00px);
+        opacity: 1;
+
+    }
+}
+
+.animation .list .item:nth-child(1) .content .title{
+    animation-delay: 0.4s;
+}
+
+
+.animation .list .item:nth-child(1) .content .type{
+    animation-delay: 0.6s;
+}
+
+.animation .list .item:nth-child(1) .content .description{
+    animation-delay: 0.8s;
+}
+
+.animation .list .item:nth-child(1) .content .button{
+    animation-delay: 1s;
+}
+
+/*  ANIMATION FOR NEXT BUTTON CIRCLE */
+
+.animation.next .list .item:nth-child(1) img{/*  animation and next ko bich ko space ko problem */
+    width: 150px;
+    height: 220px;
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    border-radius: 15%;
+    animation: showImage 0.5s linear 1 forwards;
+
+}
+
+@keyframes showImage{
+    to{
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border-radius: 0;
+    }
+}
+
+.animation.next .thumbnail .item:nth-last-child(1){
+    overflow: hidden;
+    animation: showthumbnail 0.5s linear 1 forwards;
+
+}
+.animation.prev .list .item img{
+    z-index: 100;
+}
+@keyframes showthumbnail{
+    from{
+        width: 0;
+        opacity: 0;
+    }
+}
+.animation.next .thumbnail{
+    animation: effectnext .5s linear 1 forwards;
+}
+@keyframes effectnext{
+    from{
+        transform: translateX(150px);
+    }
+}
+
+/* ANIMATION FOR PREV BUTTON CIRCLE */
+
+.animation.prev .list .item:nth-child(2){
+    z-index: 2;
+}
+
+
+.animation.prev .list .item:nth-child(2) img{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    animation: outframe 0.5s linear 1 forwards;
+}
+@keyframes outframe {
+    to{
+        width: 150px;
+        height: 120px;
+        bottom: 1dvh;
+        left: 65%;
+        border-radius: 8px;
+    }
+}
+
+.animation.prev .thumbnail .item:nth-child(1){
+    overflow: hidden;
+    opacity: 0;
+    animation: showthumbail 0.5 linear 1 forwards;
+}
+
+
+.animation.prev .list .item:nth-child(1) .content .title,
+.animation.prev .list .item:nth-child(1) .content .type,
+.animation.prev .list .item:nth-child(1) .content .description,
+.animation.prev .list .item:nth-child(1) .content .button{
+    animation: contentOut 0.5s 1s linear 1 forwards;
+}
+
+@keyframes contentOut {
+    to{
+        transform: translateY(-150px);
+        filter: blur(20px);
+        opacity: 0;
+
+    }
+}
+/*
+
+@media (max-width:678px){
+
+    .animation .list .item .content{
+        padding-right: 0;
+    }
+    
+    .animation .list .item .content .title{
+        font-size: 30px;
+    }
+    
+}
+

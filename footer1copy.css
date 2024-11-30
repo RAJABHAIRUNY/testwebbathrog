@@ -9,7 +9,7 @@
     flex-wrap: wrap;
     flex-direction: row;
     background-image: linear-gradient(rgba( 162, 108, 108, 0.6) ,rgba( 162, 108, 108, 0.6), rgba(162, 108, 108, 0.6),
-    rgba(162, 108, 108, 0.6)), url(footer.b.jpg);
+    rgba(162, 108, 108, 0.6)), url(footerimg.jpg);
     background-position: center;
     background-size: cover;
 

@@ -69,6 +69,11 @@ nav h1{
     background-color: aqua;
 }
 
+.active:hover{
+    color: #0dac30;
+
+}
+
 /*---mediaquery for navigation system---*/
 
 
@@ -185,7 +190,7 @@ nav .fa-solid{
     display: flex;
     flex-direction: column;
     width: 100%; 
-    height: 55vh;
+    height: 40vh;
     margin-top: 0px;
     margin-left: 0px;
     margin-right: 0px;

@@ -5,15 +5,15 @@
 }
 
 body{
-    background-color: olive;
+    background-color: transparent;
 }
 
 .about-gosaikunda, .about_bathrog{
     text-align: left;
     width: 100%;
     height: auto;
-    margin: 0 20px;
-    padding: 20px 20px;
+    margin: 0 10px;
+    padding: 15px 15px;
     
     
     position: relative;
@@ -21,16 +21,16 @@ body{
 }
 
 .about-gosaikunda, .about_bathrog  p{
-    color: black;
-    font-size: 16px;
+    color: blueviolet;
+    font-size: 14px;
     
    
 }
 
 h1{
-    color: black;
+    color: crimson;
     text-align: center;
-    margin: 7px 0;
+    margin: 5px 0;
 }
 
 span{
@@ -41,7 +41,7 @@ span{
 
  .bathrog, .drdeepa,  .drdipendra {
 
-    width: 200px;
+    width: 250px;
     padding: 10px 10px;
 
 }
